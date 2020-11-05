@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+                   /* Enable incremental compilation */
+      "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
+      "module": "esnext",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+      "lib":["es2016","dom"],
+      // "outDir":"./dist",  // 由webpack打包
+      "sourceMap": true,  // 报错：js代码对应ts哪个部分
+      "strict": true,   
+      "removeComments": true,                        /* Enable all strict type-checking options. */
+      "esModuleInterop": true,   // 模块化交互 es6和commonjs               /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+      "moduleResolution": "node", // 建议使用node模块解析模式 导入解析
+      "isolatedModules":true
+    },
+    "include":["./src"]
+  }
+  
