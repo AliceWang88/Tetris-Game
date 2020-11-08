@@ -10,7 +10,7 @@
       "removeComments": true,                        /* Enable all strict type-checking options. */
       "esModuleInterop": true,   // 模块化交互 es6和commonjs               /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
       "moduleResolution": "node", // 建议使用node模块解析模式 导入解析
-      "isolatedModules":true
+      "isolatedModules":true,
     },
     "include":["./src"]
   }
